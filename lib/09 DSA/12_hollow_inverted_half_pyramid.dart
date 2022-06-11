@@ -26,10 +26,10 @@ void main() {
 }
 
 void halfHollowPyramid(int number) {
-  for (int i = 0; i < number; i++) {
+  for (int row = 0; row < number; row++) {
     String line = '';
-    for (int j = 0; j < number; j++) {
-      if (i == 0 || j == 0 || j == number - i - 1) {
+    for (int col = 0; col < number; col++) {
+      if (row == 0 || col == 0 || col == number - row - 1) {
         line += '*';
       } else {
         line += ' ';
