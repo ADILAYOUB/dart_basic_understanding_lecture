@@ -1,6 +1,7 @@
 import 'package:firstproject/firstproject.dart' as firstproject;
 import 'package:firstproject/lesson01/03datatypes.dart' as data;
 import 'package:firstproject/lesson01/05operators.dart' as ope;
+import 'package:firstproject/lesson01/06input.dart' as input;
 
 void main(List<String> arguments) {
   //print('Hello world: ${firstproject.calculate()}!');
@@ -56,21 +57,29 @@ void main(List<String> arguments) {
 
 //!===================== Lec 05 ============== Operators ============
   //* Lesson 01 Operators 05 Example 01
-  print('Arithmatic Operator:');
-  ope.arthmatic();
+  // print('Arithmatic Operator:');
+  // ope.arthmatic();
   //* Lesson 01 Operators 05 Example 02
-  print('Increment Decrement Operator:');
-  ope.incdec();
+  // print('Increment Decrement Operator:');
+  // ope.incdec();
   //* Lesson 01 Operators 05 Example 03
-  print('Assignment Operator:');
-  ope.assign();
+  // print('Assignment Operator:');
+  // ope.assign();
   //* Lesson 01 Operators 05 Example 04
-  print('Relation Operator:');
-  ope.rln();
+  // print('Relation Operator:');
+  // ope.rln();
   //* Lesson 01 Operators 05 Example 05
-  print('Logical Operator:');
-  ope.logic();
+  // print('Logical Operator:');
+  // ope.logic();
   //* Lesson 01 Operators 05 Example 06
-  print('Test Operator:'); //Check at run time type
-  ope.test();
+  // print('Test Operator:'); //Check at run time type
+  // ope.test();
+
+  //!===================== Lec 06 ============== Input ============
+  //* Lesson 01 Operators 06 Example 01
+  // print('Input String:${input.stringInput()}');
+  //* Lesson 01 Operators 06 Example 02
+  //print('Input Number Is:${input.intInput()}');
+  //* Lesson 01 Operators 06 Example 03
+  print('Input Floating Is:${input.folatingInput()}');
 }
