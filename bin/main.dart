@@ -1,5 +1,6 @@
 import 'package:firstproject/firstproject.dart' as firstproject;
 import 'package:firstproject/lesson01/03datatypes.dart' as data;
+import 'package:firstproject/lesson01/05operators.dart' as ope;
 
 void main(List<String> arguments) {
   //print('Hello world: ${firstproject.calculate()}!');
@@ -43,5 +44,33 @@ void main(List<String> arguments) {
 
   //Map
   //* Lesson 01 Veriables 03 Example 14
-  data.maps();
+  // data.maps();
+
+  //Var
+  //* Lesson 01 Veriables 03 Example 15
+  // data.varchar();
+
+  //Find UniCode
+  //* Lesson 01 Veriables 03 Example 16
+  // data.unicode();
+
+//!===================== Lec 05 ============== Operators ============
+  //* Lesson 01 Operators 05 Example 01
+  print('Arithmatic Operator:');
+  ope.arthmatic();
+  //* Lesson 01 Operators 05 Example 02
+  print('Increment Decrement Operator:');
+  ope.incdec();
+  //* Lesson 01 Operators 05 Example 03
+  print('Assignment Operator:');
+  ope.assign();
+  //* Lesson 01 Operators 05 Example 04
+  print('Relation Operator:');
+  ope.rln();
+  //* Lesson 01 Operators 05 Example 05
+  print('Logical Operator:');
+  ope.logic();
+  //* Lesson 01 Operators 05 Example 06
+  print('Test Operator:'); //Check at run time type
+  ope.test();
 }

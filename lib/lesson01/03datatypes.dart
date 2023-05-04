@@ -209,3 +209,23 @@ maps() {
   print(map);
   print(map["name"]);
 }
+
+//? Var
+// var automatically finds a data type.
+//? Example 15
+varchar() {
+  var name = "Burhan "; // String
+  var age = 20; // int
+
+  print(name);
+  print(age);
+  print(name.runtimeType);
+  print(age.runtimeType);
+}
+
+//? Find unicode by using Runes.
+//? Example 16
+unicode() {
+  String name = "a";
+  print(name.runes);
+}
