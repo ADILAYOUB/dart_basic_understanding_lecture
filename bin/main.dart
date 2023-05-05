@@ -2,13 +2,15 @@ import 'package:firstproject/firstproject.dart' as firstproject;
 import 'package:firstproject/lesson01/03datatypes.dart' as data;
 import 'package:firstproject/lesson01/05operators.dart' as ope;
 import 'package:firstproject/lesson01/06input.dart' as input;
+import 'package:firstproject/lesson02/01condition.dart' as cond;
+import 'package:firstproject/lesson02/03switch.dart' as st;
+import 'package:firstproject/lesson02/04ternary.dart' as tr;
+import 'package:firstproject/lesson02/05loops.dart' as lop;
 
 void main(List<String> arguments) {
-  //print('Hello world: ${firstproject.calculate()}!');
-
+//! ============== lESSON 01 ===============
   //* Lesson 01 Veriables 03 Example 1
   // print('The sum of all these number is ${data.number()}');
-
   //* Lesson 01 Veriables 03 Example 2
   // print('this is type of string as return value ${data.doubleNum()}');
   // //* Lesson 01 Veriables 03 Example 3
@@ -19,11 +21,9 @@ void main(List<String> arguments) {
   // print('The value is:${data.tab()}');
   //* Lesson 01 Veriables 03 Example 6
   //print('Value is:${data.rawString()}');
-
   // String To Double conversation
   //* Lesson 01 Veriables 03 Example 7
   //data.stringToInt()}; //${data.runtimeType}
-
   // String To Double conversation
   //* Lesson 01 Veriables 03 Example 8
   //data.stringToDouble();
@@ -34,23 +34,18 @@ void main(List<String> arguments) {
   // data.doubleToInt();
   //* Lesson 01 Veriables 03 Example 11
   // data.boolean();
-
   //List
   //* Lesson 01 Veriables 03 Example 12
   // data.listLesson();
-
   //Sets
   //* Lesson 01 Veriables 03 Example 13
   // data.sets();
-
   //Map
   //* Lesson 01 Veriables 03 Example 14
   // data.maps();
-
   //Var
   //* Lesson 01 Veriables 03 Example 15
   // data.varchar();
-
   //Find UniCode
   //* Lesson 01 Veriables 03 Example 16
   // data.unicode();
@@ -81,5 +76,63 @@ void main(List<String> arguments) {
   //* Lesson 01 Operators 06 Example 02
   //print('Input Number Is:${input.intInput()}');
   //* Lesson 01 Operators 06 Example 03
-  print('Input Floating Is:${input.folatingInput()}');
+  //print('Input Floating Is:${input.folatingInput()}');
+
+  //!====== LECTURE 02 ====== LESSON 01 ======== Condition ============
+  //* Lesson 01 If Condition 01 Example 01
+  // print('If condition:${cond.condition()}');
+  //* Lesson 01 If Condition 01 Example 02
+  // cond.ifelse();
+  //* Lesson 01 If Condition 01 Example 03
+  // cond.condBool();
+  //* Lesson 01 If Condition 01 Example 04
+  // cond.ifelseif();
+  //* Lesson 01 If Condition 01 Example 05
+  // cond.findGreatet();
+
+  //!====== LECTURE 02 ====== LESSON 03 ======== Switch Statement ============
+  //* Lesson 02 If Switch 03 Example 01
+  //st.usignIfElse();
+  //* Lesson 02 If Switch 03 Example 02
+  //st.switchStatement();
+  //* Lesson 02 Switch 03 Example 03
+  // st.stringSwitch();
+  //* Lesson 02 Switch with enum 03 Example 04
+//  st.swithWithEnum();
+
+  //!====== LECTURE 02 ====== LESSON 04 ======== Turnary Operator =========
+  //* Lesson 02 If Turnary 04 Example 01
+  // tr.ter();
+  //* Lesson 02 If Turnary 04 Example 02
+  //tr.ternary();
+  //* Lesson 02 If Turnary 04 Example 03
+  //tr.valueBase();
+
+  //!====== LECTURE 02 ====== LESSON 05 ======== Loops =========
+  //* Example 1
+  //  lop.withOutLoop();
+  //* Example 2
+  //  lop.withLoop();
+  //* Sum of natural numbers
+  //  lop.sumOfNatural();
+  //* Display even number b/w 50 to 100
+  //  lop.even();
+  //* Display foreach
+  //  lop.item();
+  //* Display foreach each item
+  //  lop.eachItem();
+  //* Display for item
+  //  lop.usingForEach();
+  //* Display for index
+  //  lop.indexBase();
+  //* Display for index code
+  //  lop.codePoint();
+
+  //** while loop
+  // lop.whilelp();
+  // lop.whilelpRv();
+  // lop.whileNatural();
+  // lop.whileEven();
+  // lop.dowhlLow();
+  lop.doWhlUp();
 }
