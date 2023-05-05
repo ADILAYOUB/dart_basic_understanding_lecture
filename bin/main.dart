@@ -6,6 +6,7 @@ import 'package:firstproject/lesson02/01condition.dart' as cond;
 import 'package:firstproject/lesson02/03switch.dart' as st;
 import 'package:firstproject/lesson02/04ternary.dart' as tr;
 import 'package:firstproject/lesson02/05loops.dart' as lop;
+import 'package:firstproject/lesson02/06break.dart' as brk;
 
 void main(List<String> arguments) {
 //! ============== lESSON 01 ===============
@@ -127,12 +128,23 @@ void main(List<String> arguments) {
   //  lop.indexBase();
   //* Display for index code
   //  lop.codePoint();
-
   //** while loop
   // lop.whilelp();
   // lop.whilelpRv();
   // lop.whileNatural();
   // lop.whileEven();
   // lop.dowhlLow();
-  lop.doWhlUp();
+  // lop.doWhlUp();
+
+  //!====== LECTURE 02 ====== LESSON 06 ======== Break and Continue =========
+  //* Example  Break
+  // brk.exampleB1();
+  // brk.exampleB2();
+  // brk.exampleB3();
+  // brk.exampleB4();
+
+  //* Example Continue
+  // brk.example1();
+  // brk.example2();
+  brk.example3();
 }
