@@ -10,7 +10,8 @@ import 'package:firstproject/lesson02/04ternary.dart' as tr;
 import 'package:firstproject/lesson02/05loops.dart' as lop;
 import 'package:firstproject/lesson02/06break.dart' as brk;
 import 'package:firstproject/lesson03/02math.dart' as math;
-import 'package:firstproject/lesson04/01collection.dart' as col;
+import 'package:firstproject/lesson04/01collection_List.dart' as col;
+import 'package:firstproject/lesson04/02Set.dart' as st;
 
 void main(List<String> arguments) {
 //! ============== lESSON 01 ===============
@@ -183,7 +184,16 @@ void main(List<String> arguments) {
   // col.whereConditionInList();
 
   //* Set lesson 2
-
+  // st.example1();
+  // st.example2();
+  // st.example3();
+  // st.addRemoveSet();
+  // st.addAllSet();
+  // st.printingSet();
+  // st.clearSet();
+  // st.differenceInSet();
+  // st.elementAt();
+  // st.intersectionInSet();
   //* Map lesson 3
 
   //* Where lesson 4
