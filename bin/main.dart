@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:firstproject/firstproject.dart' as firstproject;
 import 'package:firstproject/lesson01/03datatypes.dart' as data;
 import 'package:firstproject/lesson01/05operators.dart' as ope;
@@ -7,6 +9,7 @@ import 'package:firstproject/lesson02/03switch.dart' as st;
 import 'package:firstproject/lesson02/04ternary.dart' as tr;
 import 'package:firstproject/lesson02/05loops.dart' as lop;
 import 'package:firstproject/lesson02/06break.dart' as brk;
+import 'package:firstproject/lesson03/02math.dart' as math;
 
 void main(List<String> arguments) {
 //! ============== lESSON 01 ===============
@@ -142,9 +145,13 @@ void main(List<String> arguments) {
   // brk.exampleB2();
   // brk.exampleB3();
   // brk.exampleB4();
-
   //* Example Continue
   // brk.example1();
   // brk.example2();
-  brk.example3();
+  //brk.example3();
+
+  //!====== LECTURE 03 ====== LESSON 02 ======== Math.dart =========
+  // math.random();
+  // math.randomAnyNumber();
+  // math.power();
 }
