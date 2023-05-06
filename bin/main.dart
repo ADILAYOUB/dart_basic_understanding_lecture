@@ -10,6 +10,7 @@ import 'package:firstproject/lesson02/04ternary.dart' as tr;
 import 'package:firstproject/lesson02/05loops.dart' as lop;
 import 'package:firstproject/lesson02/06break.dart' as brk;
 import 'package:firstproject/lesson03/02math.dart' as math;
+import 'package:firstproject/lesson04/01collection.dart' as col;
 
 void main(List<String> arguments) {
 //! ============== lESSON 01 ===============
@@ -154,4 +155,36 @@ void main(List<String> arguments) {
   // math.random();
   // math.randomAnyNumber();
   // math.power();
+
+  //!====== LECTURE 04 ====== LESSON 01 ======== Collection =========
+  //* List lesson 1
+  // col.fixedLength();
+  // col.growingList();
+  // col.accessList();
+  // col.indexList();
+  // col.lengthOfList();
+  // col.changingValueOfList();
+  // col.findFirstList();
+  // col.isEmptyOrNot();
+  // col.reverse();
+  // col.addList();
+  // col.addAllList();
+  // col.insertList();
+  // col.insertAllList();
+  // col.replaceList();
+  // col.removeList();
+  // col.removeListAt();
+  // col.removeLastList();
+  // col.removeRangeList();
+  // col.loopList();
+  // col.multipleListByTwo();
+  // col.combineTwoList();
+  // col.conditionInList();
+  // col.whereConditionInList();
+
+  //* Set lesson 2
+
+  //* Map lesson 3
+
+  //* Where lesson 4
 }
