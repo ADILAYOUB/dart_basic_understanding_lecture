@@ -1,17 +1,18 @@
 import 'dart:math';
 
 import 'package:firstproject/firstproject.dart' as firstproject;
-import 'package:firstproject/lesson01/03datatypes.dart' as data;
-import 'package:firstproject/lesson01/05operators.dart' as ope;
-import 'package:firstproject/lesson01/06input.dart' as input;
-import 'package:firstproject/lesson02/01condition.dart' as cond;
-import 'package:firstproject/lesson02/03switch.dart' as st;
-import 'package:firstproject/lesson02/04ternary.dart' as tr;
-import 'package:firstproject/lesson02/05loops.dart' as lop;
-import 'package:firstproject/lesson02/06break.dart' as brk;
-import 'package:firstproject/lesson03/02math.dart' as math;
-import 'package:firstproject/lesson04/01collection_List.dart' as col;
-import 'package:firstproject/lesson04/02Set.dart' as st;
+import 'package:firstproject/01%20Intro/03datatypes.dart' as data;
+import 'package:firstproject/01%20Intro/05operators.dart' as ope;
+import 'package:firstproject/01%20Intro/06input.dart' as input;
+import 'package:firstproject/02%20condition%20and%20loops/01condition.dart'
+    as cond;
+import 'package:firstproject/02%20condition%20and%20loops/03switch.dart' as st;
+import 'package:firstproject/02%20condition%20and%20loops/04ternary.dart' as tr;
+import 'package:firstproject/02%20condition%20and%20loops/05loops.dart' as lop;
+import 'package:firstproject/02%20condition%20and%20loops/06break.dart' as brk;
+import 'package:firstproject/03%20functions/02math.dart' as math;
+import 'package:firstproject/04%20collection/01collection_List.dart' as col;
+import 'package:firstproject/04%20collection/02Set.dart' as st;
 
 void main(List<String> arguments) {
 //! ============== lESSON 01 ===============
