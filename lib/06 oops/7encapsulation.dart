@@ -80,7 +80,8 @@ class Vehicle {
 
 // Instead of writing { } after the property name,
 // you can also write => (fat arrow) after the property name.
-
+// Getter read the value of property and act as accessor.
+// Setter update the value of property and act as mutator.
 class BankAccount {
   // Private Property
   double _balance = 0.0;
