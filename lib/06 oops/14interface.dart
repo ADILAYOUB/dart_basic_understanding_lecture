@@ -21,3 +21,68 @@
 // class ClassName implements InterfaceName {
 //   code
 // }
+
+// Declaring Interface
+
+// In dart there is no keyword interface but you can use class or abstract class
+// to declare an interface. All classes implicitly define an interface.
+// Mostly abstract class is used to declare an interface.
+
+// creating an interface using abstract class
+abstract class Person {
+  canWalk();
+  canRun();
+}
+
+// Implementing Interface
+// You must use the implements keyword to implement an interface.
+// The class that implements an interface must implement all the methods
+// and properties of the interface.
+
+// class Student implements Person {
+//  // implementation of canWalk()
+//   @override
+//   canWalk() {
+//     print('Student can walk');
+//   }
+
+// // implementation of canRun()
+//   @override
+//   canRun() {
+//     print('Student can run');
+//   }
+// }
+
+// Example 2
+// creating an interface using concrete class
+class Laptop {
+  // method
+  turnOn() {
+    print('Laptop turned on');
+  }
+
+  // method
+  turnOff() {
+    print('Laptop turned off');
+  }
+}
+
+class MacBook implements Laptop {
+  // implementation of turnOn()
+  @override
+  turnOn() {
+    print('MacBook turned on');
+  }
+
+  // implementation of turnOff()
+  @override
+  turnOff() {
+    print('MacBook turned off');
+  }
+}
+
+void main() {
+  var macBook = MacBook();
+  macBook.turnOn();
+  macBook.turnOff();
+}
