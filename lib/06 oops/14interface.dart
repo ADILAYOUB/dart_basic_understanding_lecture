@@ -85,4 +85,83 @@ void main() {
   var macBook = MacBook();
   macBook.turnOn();
   macBook.turnOff();
+  //Example 2
+  Rectangle rectangle = Rectangle(10, 20);
+  rectangle.area();
+  rectangle.perimeter();
 }
+
+// Multiple Inheritance
+// Multiple inheritance means a class can inherit from more than one class.
+// In dart, you can’t inherit from more than one class.
+// But you can implement multiple interfaces in a class.
+
+// Syntax For Implementing Multiple Interfaces In Dart
+// class ClassName implements Interface1, Interface2, Interface3 {
+//   // code
+// }
+// Example 3:
+// abstract class as interface
+abstract class Area {
+  void area();
+}
+
+// abstract class as interface
+abstract class Perimeter {
+  void perimeter();
+}
+
+// implements multiple interfaces
+class Rectangle implements Area, Perimeter {
+  // properties
+  int length, breadth;
+
+  // constructor
+  Rectangle(this.length, this.breadth);
+
+// implementation of area()
+  @override
+  void area() {
+    print('The area of the rectangle is ${length * breadth}');
+  }
+
+// implementation of perimeter()
+  @override
+  void perimeter() {
+    print('The perimeter of the rectangle is ${2 * (length + breadth)}');
+  }
+}
+
+
+
+/**
+ * 
+ * 
+ * Difference Between Extends & Implements
+extends	                                          implements
+Used to inherit a class in another class.	       Used to inherit a class as an interface in another class.
+
+Gives complete method definition to sub-class.   Gives abstract method definition to sub-class.
+
+Only one class can be extended.	                 Multiple classes can be implemented.
+
+It is optional to override the methods.	         Concrete class must override the methods of an interface.
+
+Constructors of the superclass is                Constructors of the superclass is not called before the sub-class constructor.
+called before the sub-class constructor.	
+
+The super keyword is used to access the          Interface members can’t be accessed using the super keyword.
+members of the superclass.	
+
+Sub-class need not to override the fields        Subclass must override the fields of the interface.
+ of the superclass.	
+
+
+ Key Points To Remember:
+1. An interface is a contract that defines the capabilities of a class.
+2. Dart has no keyword interface, but you can use class or abstract class to declare an interface.
+3. Use abstract class to declare an interface.
+4. A class can extend only one class but can implement multiple interfaces.
+5. Using the interface, you can achieve multiple inheritance in Dart.
+6. It is used to achieve abstraction.
+ */
