@@ -3,6 +3,8 @@
 // In this example below, the show() method of the MacBook class calls
 // the show() method of the parent class using the super keyword.
 
+// ignore_for_file: overridden_fields
+
 class LaptopS {
   // Method
   void show() {
@@ -11,6 +13,7 @@ class LaptopS {
 }
 
 class MacBookS extends LaptopS {
+  @override
   void show() {
     super.show(); // Calling the show method of the parent class
     print("MacBook show method");
@@ -23,6 +26,7 @@ void main() {
   macbook.show();
   var tesla = Tesla();
   tesla.display();
+  // ignore: unused_local_variable
   Manager manager = Manager("John", 25000.0);
   var macbookpro = MacBookPro();
   macbookpro.display();
@@ -35,6 +39,7 @@ class Car {
 }
 
 class Tesla extends Car {
+  @override
   int noOfSeats = 6;
 
   void display() {

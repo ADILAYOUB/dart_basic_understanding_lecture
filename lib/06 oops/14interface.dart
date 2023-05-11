@@ -1,9 +1,6 @@
 //? Introduction
 // In this section, you will learn the dart interface and how to implement an
-// interface with the help of examples.
-// In Dart, every class is implicit interface. Before learning about the
-// interface in dart, you should have a basic understanding of the class
-// and objects, inheritance and abstract class in Dart.
+// interface with the help of examples.rt.
 
 // Interface In Dart
 // An interface defines a syntax that a class must follow.
