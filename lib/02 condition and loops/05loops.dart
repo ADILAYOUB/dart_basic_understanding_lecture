@@ -164,7 +164,7 @@ whileNatural() {
 //? Even Numbers Between 50 to 100
 whileEven() {
   int i = 50;
-  int num = 100;
+  //int num = 100;
   while (i <= 100) {
     if (i % 2 == 0) {
       print('This is $i');

@@ -56,7 +56,6 @@ ifelse() {
 condBool() {
   bool isMarried = false;
   if (isMarried) {
-    print("Are u maried");
   } else {
     print("this is else");
   }
@@ -79,7 +78,7 @@ condBool() {
       }
  */
 
-//? Example 4
+///? Example 4
 ifelseif() {
   int noOfMonth = 5;
 
