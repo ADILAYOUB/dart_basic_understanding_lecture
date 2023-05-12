@@ -179,7 +179,7 @@ void logic() {
 /* 
 OperatorSymbol	OperatorName	    Description
     is	          is	      Gives boolean value true if the object has a specific type
-    s!	          is        not	Gives boolean value false if the object has a specific type
+    is!	          isnot	    Gives boolean value false if the object has a specific type
 */
 //? Example 6
 void test() {
