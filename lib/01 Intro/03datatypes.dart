@@ -4,7 +4,7 @@
 //? Dart supports the following built-in data types :
 /***
  * 
- *1 Numbers => int bool num => resp number 
+ *1 Numbers => int double num => resp number 
  *2 Strings => String => resp sequence of characters
  *3 Booleans => bool => true or false
  *4 Lists => list => order of group items 
