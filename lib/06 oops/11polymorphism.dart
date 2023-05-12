@@ -34,6 +34,7 @@ class Animal {
 }
 
 class Dog extends Animal {
+  @override
   void eat() {
     print("Dog is eating");
   }
@@ -48,6 +49,7 @@ class Vehicle {
 }
 
 class Bus extends Vehicle {
+  @override
   void run() {
     print("Bus is running");
   }
@@ -67,6 +69,7 @@ class Car {
 class Honda extends Car {}
 
 class Tesla extends Car {
+  @override
   void power() {
     print("It runs on electricity.");
   }
@@ -81,12 +84,14 @@ class Employee {
 }
 
 class Manager extends Employee {
+  @override
   void salary() {
     print("Manager salary is \$2000.");
   }
 }
 
 class Developer extends Employee {
+  @override
   void salary() {
     print("Developer salary is \$3000.");
   }

@@ -77,7 +77,9 @@ even() {
 // print each item of list using foreach
 item() {
   List<String> name = ["Apple", "Orange", "Peach", "Mango", "Plum"];
-  name.forEach((element) => print(element));
+  for (var element in name) {
+    print(element);
+  }
 }
 
 //Example 2
@@ -85,7 +87,9 @@ item() {
 eachItem() {
   List<int> number = [1, 2, 3, 4, 5, 6];
   int total = 0;
-  number.forEach((num) => total = total + num);
+  for (var num in number) {
+    total = total + num;
+  }
   print("Total  is $total");
   double average = total / (number.length);
   print("Average is $average");

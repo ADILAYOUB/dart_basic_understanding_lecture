@@ -35,14 +35,18 @@ enum EnumofYear {
 void example() {
   print("Enumeration");
   print(EnumofYear.values);
-  EnumofYear.values.forEach((v) => print('value: $v, index: ${v.index}'));
+  for (var v in EnumofYear.values) {
+    print('value: $v, index: ${v.index}');
+  }
 }
 
 enum ProcessStatus { none, running, stopped, paused }
 
 void example2() {
   print(ProcessStatus.values);
-  ProcessStatus.values.forEach((v) => print('value: $v, index: ${v.index}'));
+  for (var v in ProcessStatus.values) {
+    print('value: $v, index: ${v.index}');
+  }
   print('running: ${ProcessStatus.running}, ${ProcessStatus.running.index}');
   print('running index: ${ProcessStatus.values[1]}');
 }

@@ -186,6 +186,8 @@ void test() {
   String value1 = "Dart Tutorial";
   int age = 10;
 
+  // ignore: unnecessary_type_check
   print(value1 is String);
+  // ignore: unnecessary_type_check
   print(age is! int);
 }

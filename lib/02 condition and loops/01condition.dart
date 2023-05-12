@@ -55,6 +55,7 @@ ifelse() {
 //? Example 3
 condBool() {
   bool isMarried = false;
+  // ignore: dead_code
   if (isMarried) {
   } else {
     print("this is else");

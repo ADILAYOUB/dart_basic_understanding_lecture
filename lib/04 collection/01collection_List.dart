@@ -242,7 +242,9 @@ void removeRangeList() {
 
 void loopList() {
   List<int> list = [10, 20, 30, 40, 50];
-  list.forEach((n) => print(n));
+  for (var n in list) {
+    print(n);
+  }
 }
 
 // Multiply All Value By 2 Of All List
@@ -269,6 +271,7 @@ void combineTwoList() {
 // Conditions In List
 void conditionInList() {
   bool sad = false;
+  // ignore: dead_code
   var cart = ['milk', 'ghee', if (sad) 'Beer'];
   print(cart);
 }
