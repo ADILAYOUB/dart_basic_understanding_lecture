@@ -93,6 +93,8 @@ stringSwitch() {
       print("Get your skis.");
       break;
     case "cloudy":
+      print("It is Cloudy Weather ");
+      break;
     case "rainy":
       print("Please bring umbrella.");
       break;
@@ -131,6 +133,8 @@ void swithWithEnum() {
       print("Get your skis.");
       break;
     case Weather.rainy:
+      print("Please bring umbrella.");
+      break;
     case Weather.cloudy:
       print("Please bring umbrella.");
       break;
