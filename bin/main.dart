@@ -8,7 +8,7 @@
 //     as cond;
 // import 'package:firstproject/02%20condition%20and%20loops/03switch.dart' as st;
 // import 'package:firstproject/02%20condition%20and%20loops/04ternary.dart' as tr;
-import 'package:firstproject/02%20condition%20and%20loops/05loops.dart' as lop;
+// import 'package:firstproject/02%20condition%20and%20loops/05loops.dart' as lop;
 // import 'package:firstproject/02%20condition%20and%20loops/06break.dart' as brk;
 // import 'package:firstproject/03%20functions/02math.dart' as math;
 // import 'package:firstproject/04%20collection/01collection_List.dart' as col;
@@ -119,7 +119,7 @@ void main(List<String> arguments) {
   //* Example 1
   //  lop.withOutLoop();
   //* Example 2
-  lop.withLoop();
+  // lop.withLoop();
   //* Sum of natural numbers
   //  lop.sumOfNatural();
   //* Display even number b/w 50 to 100
