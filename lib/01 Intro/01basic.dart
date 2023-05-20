@@ -4,13 +4,15 @@
 //This is a simple dart program that prints Hello World on screen.
 // Most programmers write the Hello World program as their first program.
 
-/*      void main() { 
+/* First example run by removing commit
+      void main() { 
          print("Hello World!"); 
         } 
          Show Output Hellp World!
  */
 
- 
+//As all are using main function try to comment one main function upon running
+// the other one
 
 //! Basic Dart Program Explained
 /* void main() is the starting point where the execution of your program begins.
@@ -38,29 +40,26 @@
        This joining process in dart is called //! string interpolation.
  */
 
- // Dart Program For Basic Calculation
+// Dart Program For Basic Calculation
 // Performing addition, subtraction, multiplication, and division in dart.
-/*
-        void main() {
-        int num1 = 10; //declaring number1
-        int num2 = 3; //declaring number2
-          
-        /// Calculation
-        int sum = num1 + num2;
-        int diff = num1 - num2;
-        int mul = num1 * num2;
-        double div = num1 / num2; // It is double because it outputs number with decimal.
-          
-        /// displaying the output
-        print("The sum is $sum");
-        print("The diff is $diff");
-        print("The mul is $mul");
-        print("The div is $div");
-        }
-        Show Output
-         */
-   
 
+void main() {
+  int num1 = 10; //declaring number1
+  int num2 = 3; //declaring number2
+
+  /// Calculation
+  int sum = num1 + num2;
+  int diff = num1 - num2;
+  int mul = num1 * num2;
+  double div =
+      num1 / num2; // It is double because it outputs number with decimal.
+
+  /// displaying the output
+  print("The sum is $sum");
+  print("The diff is $diff");
+  print("The mul is $mul");
+  print("The div is $div");
+}
 
 /*
 Steps To Create Dart Project
