@@ -78,9 +78,9 @@ var: For storing any value. E.g. ‘Bimal’, 12, ‘z’, true
      Technically, this naming convention is called lowerCamelCase.
 
      // Not standard way
-        var fullname = "John Doe";
+        var fullname = "Adil Ayoub";
       // Standard way
-         var fullName = "John Doe";
+         var fullName = "Adil Ayoub";
         const pi = 3.14;
    */
   
