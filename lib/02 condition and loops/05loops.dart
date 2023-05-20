@@ -4,9 +4,9 @@
 
 //? different types of loop in Dart. They are:
 /*
-    For Loop
-    For Each Loop
-    While Loop
+    For Loop for
+    For Each Loop 
+    While Loop while
     Do While Loop
 */
 
@@ -26,13 +26,13 @@ withOutLoop() {
 }
 
 withLoop() {
-  for (int i = 0; i <= 10; i++) {
-    print("Ahmad Bhat");
-  }
+  // for (int i = 0; i <= 10; i++) {
+  //   print("Ahmad Bhat");
+  // }
   //OR
-  for (int i = 1; i <= 10; i++) {
-    print("Gh Rasool Bhat");
-  }
+  // for (int i = 1; i <= 10; i++) {
+  //   print("Gh Rasool Bhat");
+  // }
 
   for (int i = 10; i >= 1; i--) {
     print(i);
