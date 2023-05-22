@@ -11,10 +11,11 @@
 // 2. Easy to divide the complex program into smaller parts
 // 3. Helps to write a clean code
 
-// Syntax
+//! Syntax
 // returntype functionName(parameter1,parameter2, ...){
 ///. function body
 // }
+
 // Return type:
 // It tells you the function output type.
 // It can be void, String, int, double, etc.
