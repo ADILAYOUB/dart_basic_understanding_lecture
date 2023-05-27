@@ -1,7 +1,7 @@
 /*
 
-In Dart, the cascading effect, also known as method cascades,
- allows you to perform multiple operations on an object in a concise
+In Dart, //!the cascading effect, also known as method cascades,
+ allows you to //?perform multiple operations on an object in a concise
   and readable manner. 
   It enables you to invoke multiple methods or set multiple properties
   on an object without the need for repeated dot notation. This feature
