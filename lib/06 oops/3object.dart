@@ -18,7 +18,7 @@
 // Syntax
 // ClassName objectName = ClassName();
 //
-//Example 1: Declaring An Object
+//Example 1: Declaring An Object in main below
 class Bicycle {
   String? color;
   int? size;
