@@ -80,8 +80,7 @@ class Student {
   }
 }
 
-
-//! Class Modifier 
+//! Class Modifier
 
 // Class modifiers control how a class or mixin can be used, both from within
 // its own library, and from outside of the library where it’s defined.
@@ -129,11 +128,16 @@ abstract class Vehicle {
 // import 'a.dart';
 
 // Error: Cannot be constructed
-Vehicle myVehicle = Vehicle();
+//Vehicle myVehicle = Vehicle();
 
 // Can be extended
 class Car extends Vehicle {
   int passengers = 4;
+
+  @override
+  void moveForward(int meters) {
+    // TODO: implement moveForward
+  }
   // ···
 }
 
@@ -166,7 +170,9 @@ class MockVehicle implements Vehicle {
 // class guarantees.
 
 // Library a.dart
-base class Vehicle {
+
+/*
+base class Vehicles {
   void moveForward(int meters) {
     // ...
   }
@@ -324,3 +330,4 @@ String getVehicleSound(Vehicle vehicle) {
 
 // (Optional) mixin, describing whether the declaration can be mixed in.
 // The class keyword itself
+*/
