@@ -1,6 +1,18 @@
 // in sold square we have grid of * matrics
 
 // now we want to print only the boundary of the matrix;
+/*
+         * * * * * * => row 0 all *
+         *         * 
+         *         * 
+         *         *  
+         *         * 
+         * * * * * *  
+         => column 0 => all *
+         last row and last column that is number - 1 == *;
+        
+        
+ */
 
 void main() {
   hollowSquare(8);
