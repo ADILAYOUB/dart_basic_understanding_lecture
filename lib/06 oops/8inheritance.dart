@@ -58,7 +58,7 @@ class Student extends Person {
 void main() {
   // Creating an object of the Student class
   var student = Student();
-  student.name = "javid";
+  student.name = "Vaid";
   student.age = 20;
   student.schoolName = "ABC School";
   student.schoolAddress = "Anantnag";
