@@ -13,7 +13,7 @@ void main() {
       if (input == 'r') {
         playerMoves = Moves.rock;
       } else if (input == 'p') {
-        playerMoves == Moves.paper;
+        playerMoves = Moves.paper;
       } else {
         playerMoves = Moves.scissors;
       }
