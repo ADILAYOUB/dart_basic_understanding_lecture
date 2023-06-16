@@ -42,13 +42,20 @@ void main() {
 
 void hollowPyramid(int number) {
   for (int row = 0; row < number; row++) {
-    int k = 0;
+    int k = 0; // for every row
     String line = '';
     for (int col = 0; col < ((2 * number) - 1); col++) {
       if (col < number - row - 1) {
         line += ' ';
-      } else if (k < 2 * row + 1) {
-        line += '*';
+      } else if (k < 2 * row + 1)
+      // custom loop as 1 row 1 * 2nd 3* 3rd 5* as so on
+      {
+        // for hollow pyramid
+        if (k == 0 || k == 2 * row || row == number - 1) {
+          line += '*';
+        } else {
+          line += ' ';
+        }
         k++;
       } else {
         line += ' ';
