@@ -1,3 +1,60 @@
+// ignore: slash_for_doc_comments
+/**
+50 DSA questions using only if else:
+
+1. Write an if else statement to check if a number is even or odd.
+2. number is positive or negative.
+3. number is divisible by 3.
+4. number is prime.
+5. string is a palindrome.
+6. string contains a certain substring.
+7. string is uppercase or lowercase.
+8. character is a vowel or consonant.
+9. number is in a given range.
+10. list contains a certain value.
+11. matrix is symmetric.
+12. graph is connected.
+13. tree is balanced.
+14. binary search tree is valid.
+15. linked list is a palindrome.
+16. stack is empty.
+17. queue is empty.
+18. priority queue is empty.
+19. hash table is empty.
+20. heap is empty.
+21. graph is bipartite.
+22. graph is planar.
+23. graph is Hamiltonian.
+24. graph is Eulerian.
+25. graph is connected.
+26. graph is acyclic.
+27. graph is bipartite.
+28. graph is planar.
+29. graph is Hamiltonian.
+30. graph is Eulerian.
+31. string is a substring of another string.
+32. string is a prefix of another string.
+33. string is a suffix of another string.
+34. string is a palindrome.
+35. string is a concatenation of two other strings.
+36. string is a rotation of another string.
+37. string is a permutation of another string.
+38. string is a anagram of another string.
+39. string is a palindrome.
+40. string is a rotation of another string.
+41. string is a permutation of another string.
+42. string is an anagram of another string.
+43. number is in a given range.
+44. list contains a certain value.
+45. matrix is symmetric.
+46. graph is connected.
+47. tree is balanced.
+48. binary search tree is valid.
+49. linked list is a palindrome.
+50. stack is empty.
+Other related questions could be asked.
+ */
+
 import 'dart:io';
 
 void main() {
@@ -6,7 +63,9 @@ void main() {
   // printPalindromeCheck();
   // printContainsSubstring();
   // printContainsSubstringIndex();
-  printSubstringIndex();
+  // printSubstringIndex();
+  // isUpperOrLower();
+  isInRange();
 }
 
 void printNumberProperties() {
@@ -178,4 +237,65 @@ bool isContainSubString(
     return true;
   }
   return isContainSubString(firstWord, secondWord, startingIndex + 1);
+}
+
+//! string is uppercase or lowercase.
+void isUpperOrLower() {
+  stdout.write('Enter Word: ');
+  String word = stdin.readLineSync()!;
+  //checkCase(word);
+  checkVowelorConsonant(word);
+}
+
+void checkCase(String str) {
+  if (str == str.toUpperCase()) {
+    print("The string is uppercase.");
+  } else if (str == str.toLowerCase()) {
+    print("The string is lowercase.");
+  } else {
+    print("The string contains a mix of uppercase and lowercase characters.");
+  }
+}
+
+//! check if a character is a vowel or consonant.
+void checkVowelorConsonant(String str) {
+  // eid => consonent
+  // Aei => vovel
+  if (str.isNotEmpty) {
+    String firstChar = str.toLowerCase().substring(0, 1);
+    if (firstChar == 'a' ||
+        firstChar == 'e' ||
+        firstChar == 'i' ||
+        firstChar == 'o' ||
+        firstChar == 'u') {
+      print('$str is a vowel.');
+    } else {
+      print('$str is a consonant.');
+    }
+  } else {
+    print('Empty string provided.');
+  }
+}
+
+//! checks if a number is within a given range using only if-else statements
+void isInRange() {
+  int number1 = 5;
+  int number2 = 10;
+  int number3 = 15;
+  int min = 0;
+  int max = 10;
+
+  checkNumberRange(
+      number1, min, max); // Output: 5 is within the range of 0 and 10.
+  checkNumberRange(
+      number2, min, max); // Output: 10 is within the range of 0 and 10.
+  checkNumberRange(number3, min, max);
+}
+
+void checkNumberRange(int number, int min, int max) {
+  if (number >= min && number <= max) {
+    print('$number is within the range of $min and $max.');
+  } else {
+    print('$number is not within the range of $min and $max.');
+  }
 }
