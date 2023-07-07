@@ -65,7 +65,8 @@ void main() {
   // printContainsSubstringIndex();
   // printSubstringIndex();
   // isUpperOrLower();
-  isInRange();
+  // isInRange();
+  listContaines();
 }
 
 void printNumberProperties() {
@@ -298,4 +299,15 @@ void checkNumberRange(int number, int min, int max) {
   } else {
     print('$number is not within the range of $min and $max.');
   }
+}
+
+//! list contains a certain value
+
+void listContaines() {
+  final List<int> given = [121, 123, 122, 124, 125];
+  print('The given List of Integers are: $given');
+
+  print('You have entered 121');
+  bool isWhat = given.contains(123);
+  print(isWhat);
 }
